@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: p104-dep
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: p104
+  template:
+    metadata:
+      labels:
+        app: p104
+    spec:
+      containers:
+        - name: p104
+          image: sernalen/k8scourse-p104:latest
