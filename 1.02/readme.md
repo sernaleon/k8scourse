@@ -12,3 +12,4 @@ Create a web server that outputs "Server started in port NNNN" when it is starte
 
 ## Solution remarks
 - API created using ```npx express-generator```.
+- The commands performed to deploy the app are available in ```steps.sh```.
