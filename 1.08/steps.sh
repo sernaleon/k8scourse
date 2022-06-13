@@ -21,7 +21,5 @@ while : ; do
     sleep 5
 done
 
-kubectl get deployments
-kubectl get pods
-kubectl get svc,ing
+kubectl get svc,ing,po,deploy
 kubectl logs $pod
