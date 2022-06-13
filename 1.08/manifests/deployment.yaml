@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: p108-dep
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: p108
+  template:
+    metadata:
+      labels:
+        app: p108
+    spec:
+      containers:
+        - name: p108
+          image: sernalen/k8scourse-p108:100
