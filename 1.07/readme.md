@@ -1,8 +1,10 @@
-# Exercise 1.03: Declarative approach
+# Exercise 1.07: External access with Ingress
 
-In your "Log output" application create the folder for manifests and move your deployment into a declarative file.
+"Log output" application currently outputs a timestamp and a random string to the logs.
 
-Make sure everything still works by restarting and following logs.
+Add an endpoint to request the current status (timestamp and string) and an ingress so that you can access it with a browser.
+
+You can just store the string and timestamp to the memory.
 
 ## Solution
 
