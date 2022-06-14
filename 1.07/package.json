@@ -1,0 +1,14 @@
+{
+  "name": "k8scourse-log-output",
+  "version": "1.0.7",
+  "description": "Generates a random string on startup, stores this string into memory, and outputs it every 5 seconds with a timestamp.",
+  "main": "index.mjs",
+  "scripts": {
+    "start": "node index.mjs"
+  },
+  "author": "Arturo Serna Leon",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
